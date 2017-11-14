@@ -5233,6 +5233,12 @@ a{
     float: left;
     margin-top: 0px;
 }
-.button-orange{			background-color:#27ae60; color:#FFFFFF; width: 100px;}
+.button-orange{			background-color:#FF8C00; color:#FFFFFF; width: 100px;}
 .button-dark{			background-color:#2c3e50; color:#FFFFFF;width: 100px;}
+.button-blue-meeting{			background-color:#2980b9; color:#FFFFFF;}
+.button-blue-meeting:hover{		background-color:#3498db;}
+.button-light-contacting{			background-color:#bdc3c7; color:#1f1f1f;}
+.button-light:hover{	background-color:#ecf0f1;}
+.button-tea-inscription{			background-color:#228B22; color:#FFFFFF;}
+.button-tea-inscription:hover{		background-color:#1abc9c;}
 }
