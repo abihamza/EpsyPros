@@ -723,7 +723,7 @@ a{
 .button-magenta:hover{	background-color:#9b59b6;}
 
 .dark-3d{				border-bottom:solid 4px #19232d;}
-.button-dark{			background-color:#2c3e50; color:#FFFFFF;}
+.button-dark{			background-color:#2c3e50; color:#FFFFFF;width: 132px;}
 .button-dark:hover{		background-color:#34495e;}
 
 .yellow-3d{				border-bottom:solid 4px #ba970b;}
@@ -5181,3 +5181,50 @@ a{
 }
 
 /******** FIN BUNTON VALIDER ****************************/
+@media (min-width:320px) and (max-width:361px)  {
+.contentActions
+{
+	margin-top: 406px!important;
+    text-align: center;
+}
+.one-half-actions{
+	width:45%;
+	float:left;
+}
+.one-half-actions2{
+	width: 45%;
+    float: left;
+    margin-right: -35px;
+    margin-left: 20px;
+}
+.one-half-actions3{
+	width: 33%;
+    float: left;
+	margin-top: 10px;
+}
+}
+@media (min-width:600px) and (max-width:640px) {
+.contentActions
+{
+	margin-top: 195px!important;
+	text-align: center;
+}
+
+.one-half-actions{
+	width:45%;
+	float:left;
+}
+.one-half-actions2{
+	width: 17%;
+    float: left;
+    margin-right: -45px;
+    margin-left: 45px;
+}
+.one-half-actions3{
+	    width: 16%;
+    float: left;
+    margin-top: 0px;
+}
+.button-green{			background-color:#27ae60; color:#FFFFFF; width: 100px;}
+.button-dark{			background-color:#2c3e50; color:#FFFFFF;width: 100px;}
+}
